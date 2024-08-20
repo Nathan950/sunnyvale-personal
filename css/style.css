@@ -1,0 +1,242 @@
+
+li{
+    font-family: "Andika", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #493231;
+    padding:  72px, 24px, 72px;
+    z-index: -1;
+    
+
+    
+    
+}
+ul{
+    gap: 60px;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    color: #FBF9F9;
+    justify-content: center;
+    border: 1px;
+
+}
+a{
+    text-decoration: none;
+    color: #FBF9F9;
+    cursor: pointer;
+}
+.sunnyvale{
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #FBF9F9;
+    font-size: 15px;
+    margin-left: 30px;
+}
+#vale{
+    text-indent: 50px;
+    margin-left: 15px;
+}
+/* li :hover{
+    cursor: pointer;
+    border: 0px,0px,8px , 0px solid;
+    border-radius: 10px;
+    border-color: #FBF9F9;
+    
+
+
+} */
+/* a:hover{
+    cursor: pointer;
+    border: 0px,0px,8px , 0px solid;
+    border-radius: 10px;
+    border-color:aqua;
+     
+} */
+ .NAV:hover{
+    cursor: pointer;
+    border: 0px,0px,8px , 0px solid;
+    border-radius: 10px;
+    border-color:aqua;
+ }
+ button{
+    border-style: none;
+    background-color: #5C3F3D;
+    width: 144px;
+    height: 46px;
+    border-radius: 24px;
+     color: white;
+     font-size: 16px;
+     margin-right: 20px;
+     cursor: pointer;
+
+ }
+
+ .header {
+    background-color:#493231; /* add a background color */
+    padding: 0; /* remove default padding */
+    margin: 0; /* remove default margin */
+    width: 100%; /* make it full width */
+    display: flex; /* make it a flex container */
+    justify-content: space-between; /* justify content to the edges */
+    align-items: center; /* vertically center the content */
+  }
+  
+  NAV {
+    padding: 0; /* remove default padding */
+    margin: 0; /* remove default margin */
+    width: 100%; /* make it full width */
+  }
+
+  li:hover{
+  border: 1px solid;
+  border-color: #FBF9F9;
+  border-radius: 10px;
+
+}
+.section-div p{
+    font-size: 20px;
+    padding-bottom: 30px;
+    margin-top: 0;
+    
+}
+.section-div h1{
+    font-size: 48px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Andika", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 20px;
+    gap: 0px;
+    
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-div{
+    margin-left: 100px;
+}
+.span-p{
+    margin-left: -50px;
+    justify-content: center;
+}
+
+/* 
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .NAV ul li:hover .dropdown {
+    display: block;
+  }
+  
+  .dropdown li {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown li a:hover {
+    color: #666;
+  } */
+  .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .NAV ul li:hover .dropdown {
+    display: block;
+  }
+  
+  .dropdown li {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown li a:hover {
+    color: #666;
+  }
+/* page 2 */
+
+.section-2-div{
+    display: flex;
+    gap: 100px;
+flex-direction: column;
+margin-left: 50px;
+    
+}
+.section-2-gap{
+    margin-top: 100px;
+    background-color: #F9F6F6;
+}
+.section-2-p{
+    font-size: 20px;
+    font-family: "Andika", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.section-2-h1{
+    font-family: "Andika", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    text-indent: 200px;
+}
+.section-2 {
+    position: relative;
+  }
+  
+  .image-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    justify-content: right;
+    align-self: flex-end;
+  }
+  
+  .image-container img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px 1px; 
+    margin-left: 100;
+   
+  }
